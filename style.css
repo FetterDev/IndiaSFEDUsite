@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 1030px)and (max-height: 1366px) {
+    .headerstyle{
+        height: 34vh;
+        width: auto;
+        background: url(img/header.png) ;
+        background-size: cover;
+    }
+    
+    .fontHeader{
+        display: block;
+        color: whitesmoke;
+        font-size: 5.4vw;
+        margin: 0;
+        padding-top: 20%;
+        padding-left: 45%;
+        padding-right:0 ;
+    }
+    .sfeduLogo{
+        margin-top: 5px;
+        margin-left: 5px;
+        left: 0px;
+        width: 20vh;
+    }
+    .changeLanguageButton{
+       
+        right: 0;
+        padding: 10px;
+        border: none;
+        background-color: transparent;
+        color: whitesmoke;
+        font-size: 1.5vh;
+    }
+    .topPageElement{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navPanel{
+        font-size: 4vw;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 13.5vmax;
+    }
+    /* ниже ебаное говно чтобы двигать панель навигации. переделать так как возможны сползания меню */
+    @media screen and (max-width: 349px) {
+        .navPanel{
+            margin-top: 12vmax;
+        }
+        .fontHeader{
+            padding-left: 30%;
+          
+        }
+    }
+    @media screen and (height: 640px) and (width: 360px){
+        .navPanel{
+            margin-top: 9vmax;
+        }
+        
+    }
+    @media screen and (height: 812px) and (width: 375px){
+        .fontHeader{
+            
+            padding-top: 25%;
+        }   
+    }
+    @media screen and (max-height: 812px) {
+        .fontHeader{
+           font-size: 20px;
+        }
+        
+    }
+    @media screen and (min-width: 627px) {
+        .fontHeader{
+           padding-top: 15%;
+        }
+        
+    }
+
+    @media screen and (min-height: 980px) and (min-width: 750px){
+        .navPanel{
+            margin-top: 10vmax;
+        }   
+    }
+    
+    /* выше ебаное говно*/
+    
+    .navButton{
+        color: white;
+        text-decoration: none;
+        font:20px;
+    }
+    .aboutUsContainerStyle{
+        height: 33vh;
+        width: auto;
+        background: url(img/aboutUS.jpg) ;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutUs{
+      color: whitesmoke;  
+      text-align: center;
+      margin-left:  10px;
+      margin-right:  10px;
+      font-size: 4vw;
+      margin-top: 0;
+    }
+   
+    .newsBackground{
+      
+        height: 66vh;
+        width: auto;
+        background-color:white;
+    }
+    .newsTitle{
+      color: #4A69B6; 
+      text-align: center;
+      margin-left:  10px;
+      margin-right:  10px;
+      font-size: 4vw;
+      margin-top: 0;
+      padding-top:20px;
+    }
+    .newsBackground{
+        display: flex;
+        flex-direction: column;
+    }
+}
