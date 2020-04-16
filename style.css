@@ -15,9 +15,9 @@ body{
         color: whitesmoke;
         font-size: 5.4vw;
         margin: 0;
-        padding-top: 20%;
-        padding-left: 45%;
-        padding-right:0 ;
+       margin-top: 10%;
+       margin-left: 40%;
+        padding-right:10px;
     }
     .sfeduLogo{
         margin-top: 5px;
@@ -42,51 +42,13 @@ body{
         font-size: 4vw;
         display: flex;
         justify-content: space-around;
-        margin-top: 13.5vmax;
+        margin-top: 20%;
     }
-    /* ниже ебаное говно чтобы двигать панель навигации. переделать так как возможны сползания меню */
-    @media screen and (max-width: 349px) {
+    @media screen and (min-width: 450px) {
         .navPanel{
-            margin-top: 12vmax;
-        }
-        .fontHeader{
-            padding-left: 30%;
-          
+           margin-top: 10%;
         }
     }
-    @media screen and (height: 640px) and (width: 360px){
-        .navPanel{
-            margin-top: 9vmax;
-        }
-        
-    }
-    @media screen and (height: 812px) and (width: 375px){
-        .fontHeader{
-            
-            padding-top: 25%;
-        }   
-    }
-    @media screen and (max-height: 812px) {
-        .fontHeader{
-           font-size: 20px;
-        }
-        
-    }
-    @media screen and (min-width: 627px) {
-        .fontHeader{
-           padding-top: 15%;
-        }
-        
-    }
-
-    @media screen and (min-height: 980px) and (min-width: 750px){
-        .navPanel{
-            margin-top: 10vmax;
-        }   
-    }
-    
-    /* выше ебаное говно*/
-    
     .navButton{
         color: white;
         text-decoration: none;
@@ -95,7 +57,7 @@ body{
     .aboutUsContainerStyle{
         height: 33vh;
         width: auto;
-        background: url(img/aboutUS.jpg) ;
+        background: url(img/FON.png) ;
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -113,7 +75,7 @@ body{
    
     .newsBackground{
       
-        height: 66vh;
+        
         width: auto;
         background-color:white;
     }
@@ -125,10 +87,168 @@ body{
       font-size: 4vw;
       margin-top: 0;
       padding-top:20px;
+      margin-bottom: 0;
     }
-    .newsBackground{
+    hr{
+        border: none; /* Убираем границу */
+        background-color: blueviolet; /* Цвет линии */
+        color:blueviolet; /* Цвет линии для IE6-7 */
+        height: 2px; /* Толщина линии */
+        width: 100px;
+       
+    }
+    .firstNews{
+        height: 30vw;
+        width: 50vw;
+        background: url(img/newsIco.png) ;
+        background-size: cover;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        margin-top: 5%;
+        
     }
-    .slaves{}
+    .secondNews{
+        height: 30vw;
+        width: 50vw;
+        background: url(img/newsIco1.jpg) ;
+        background-size: cover;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+    .news{
+       
+        padding: 10px;
+        border: none;
+        background-color: rgba(156, 179, 227, 0.4);
+        background-size: cover;
+        color: whitesmoke;
+        padding:5px 0px;
+        font-size: 1.5vh; 
+        text-decoration: none;
+    } 
+    .partnersTitle{
+        color: #4A69B6; 
+        text-align: center;
+        margin-left:  10px;
+        margin-right:  10px;
+        font-size: 4vw;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .partnersLine{
+        border: none; /* Убираем границу */
+        background-color: #3872B5; /* Цвет линии */
+        color:#3872B5; /* Цвет линии для IE6-7 */
+        height: 2px; /* Толщина линии */
+        width: 100px;
+        margin-bottom: 0;
+        margin-top: 5%;
+    }
+    @media screen and (max-width: 850px) {
+                .newsBackground{
+                    height: 42vh;
+                }
+            }
+    @media screen and (max-width: 670px) {
+        .newsBackground{
+           height: 52vh;
+        }
+    } 
+    @media screen and (max-width: 800px) {
+        .newsBackground{
+           height: 42vh;
+        }
+    }
+   
+    @media screen and (min-height: 400px) {
+        .newsBackground{
+           height: 50vh;
+        }
+    }
+    @media screen and (min-height: 800px) {
+        .newsBackground{
+           height: 40vh;
+        }
+    }
+    @media screen and (min-width: 700px) {
+        .newsBackground{
+           height: 63vh;
+        }
+        .partner1Pic, .partner2Pic, .partner3Pic{
+            height: 35vh;
+            width: 23vh;
+        }
+    }
+    @media screen and (min-height: 1000px) {
+        .partner1Pic, .partner2Pic, .partner3Pic{
+            height: 55vh;
+            width: 33vh;
+        }
+    }
+    .partnerFlex{
+        margin-top: 10%;
+        height: 13vh;
+        width: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .partner1Pic{
+        height: 15vh;
+        width: 13vh;
+        background-image: url(img/van.jpg);
+        background-size: cover;
+        background-color: #EBDEDE ;
+        vertical-align: bottom;
+        color: white;
+        margin-top:5% ;
+    }
+    .partner2Pic{
+        height: 15vh;
+        width: 13vh;
+        background-image: url(img/billi.jpg);
+        background-size: cover;
+        background-color: #EBDEDE ;
+        vertical-align: bottom;
+        color: white;
+        margin-top:5% ;
+    }
+    .partner3Pic{
+        height: 15vh;
+        width: 13vh;
+        background-image: url(img/khabib.png);
+        background-size: cover;
+        background-color: #EBDEDE ;
+        vertical-align: bottom;
+        color: white;
+        margin-top:5% ;
+    }
+    .blueLine{
+        height: 10vh;
+        width: auto;
+        background-color: #3872B5 ;
+    }
+    .feedbackBackground{
+        height: 40vh;
+        background-image: url(img/footerFone.jpg.png);
+        background-size: cover;
+    }
+    .contacts{
+        color: whitesmoke; 
+        text-align: center;
+        margin-left:  10px;
+        margin-right:  10px;
+        font-size: 4vw;
+        margin-top: 0;
+        padding-top:20px;
+        margin-bottom: 0;
+      }
+    .infoContacts{
+    }
+     /* \\\\\\ */
+    
+      
+    /* \\\\\\ */
 }
