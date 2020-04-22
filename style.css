@@ -231,22 +231,56 @@ body{
         background-color: #3872B5 ;
     }
     .feedbackBackground{
-        height: 40vh;
+        height: auto;
         background-image: url(img/footerFone.jpg.png);
         background-size: cover;
     }
     .contacts{
-        color: whitesmoke; 
+        color: #ffffff; 
         text-align: center;
         margin-left:  10px;
         margin-right:  10px;
-        font-size: 4vw;
+        font-size: 2vh;
         margin-top: 0;
         padding-top:20px;
         margin-bottom: 0;
       }
-    .infoContacts{
+  
+    .feedbackForm{
+        box-sizing: border-box;
+        flex-grow: 4;
+        padding-left: 10%;
     }
+    .feedbackInput{
+        color: #808080; 
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+    .inputStyle{
+        color: #ffffff;
+        font-size: 1.5vh;
+    }
+    .feedbackflex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        vertical-align: middle;
+    }
+    .addressStyle{
+        padding-left: 20px;
+        color: #ffff;
+        font-size: 1.5vh;
+    }
+    .sendButt{
+        color: #808080;
+        background-color: aqua;
+        font-size: 1.5vh;
+        margin-left: 60%;
+    }
+
+
      /* \\\\\\ */
     
       
