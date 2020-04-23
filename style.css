@@ -306,7 +306,10 @@ body{
     .marginTop{
         margin-top: 5%;
     }
-        
+    .txtArea{
+        width: 70%;
+        height: 10vh;
+    }
     
 
      /* \\\\\\ */
