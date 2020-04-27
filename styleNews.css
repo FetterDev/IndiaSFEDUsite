@@ -49,18 +49,20 @@
     
 }
 .NewsPic{
-   width: 80vw;
+     width: 80vw;
     height: auto;
     background-size:cover ;
-    margin: auto;
+    text-align: center;
     border: 1px solid rgba(128, 128, 128, 0.071);
     border-radius: 5px;
+ 
 }
 .newsTxt{
     margin-top: 5%;
     font-family: "NotoSans",Arial,sans-serif;
     text-align: start;
     font-size: 2vh;
+    padding: 0 20px 0 10px;
 }
 .styleNews{
     margin-top: 5%;
@@ -88,4 +90,20 @@
 }
 .NewsTitle{
     font-size: 3vh;
+}
+.footerbackground{
+    background-color: rgba(128, 128, 128, 0.071);
+    height: 6vh;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10%;
+}
+.bold{
+    font-weight: bold;
+}
+.soc{
+    height: 3vh;
+    width: auto;
 }
