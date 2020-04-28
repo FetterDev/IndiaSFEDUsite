@@ -34,6 +34,7 @@
     color: black;
     font-size: 4.4vw;
     text-align: center;
+    font-family: 'Roboto Slab', serif;
 }
 .backgroundFontHeaderNews{
     padding: 20px;
@@ -49,20 +50,21 @@
     
 }
 .NewsPic{
-     width: 80vw;
+    width: 90vw;
     height: auto;
     background-size:cover ;
     text-align: center;
     border: 1px solid rgba(128, 128, 128, 0.071);
     border-radius: 5px;
- 
+    margin: 0 3%;
 }
 .newsTxt{
-    margin-top: 5%;
-    font-family: "NotoSans",Arial,sans-serif;
-    text-align: start;
-    font-size: 2vh;
-    padding: 0 20px 0 10px;
+    max-width: 85vw;
+    height: auto;
+    margin: auto;
+    text-indent: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh ;
 }
 .styleNews{
     margin-top: 5%;
@@ -90,6 +92,8 @@
 }
 .NewsTitle{
     font-size: 3vh;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
 }
 .footerbackground{
     background-color: rgba(128, 128, 128, 0.071);

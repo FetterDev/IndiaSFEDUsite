@@ -21,6 +21,7 @@ body{
         font-size: 5.6vw;
         margin-top: 9vh;
         margin-left: 35vw;
+        font-family: 'Roboto Slab', serif;
     }
     .sfeduLogo{
         margin-top: 5px;
@@ -52,6 +53,7 @@ body{
         color: white;
         text-decoration: none;
         font:20px;
+        font-family: 'Roboto Slab', serif;
     }
     .aboutUsContainerStyle{
         height: 40vh;
@@ -72,6 +74,7 @@ body{
       font-size: 3.5vw;
       margin-top: 0;
       z-index: 2;
+      font-family: 'Roboto Slab', serif;
     }
     .aboutUsHeader{
         color: white;  
@@ -81,6 +84,7 @@ body{
         font-size: 5vw;
         margin-top: 0;
         z-index: 2;
+        font-family: 'Roboto Slab', serif;
     }
     .darkened {
         position: relative;
@@ -113,6 +117,7 @@ body{
       margin-top: 0;
       padding-top:20px;
       margin-bottom: 0;
+      font-family: 'Roboto Slab', serif;
     }
     hr{
         border: none; /* Убираем границу */
@@ -141,6 +146,7 @@ body{
         box-sizing: border-box;
         font-size: 3vw;;
         padding: 0 20px 0 20px;
+        font-family: 'Roboto Slab', serif;
     }
     .delBottomMargn{
         margin: 0em;
@@ -154,6 +160,7 @@ body{
         font-size: 4vw;
         margin-top: 0;
         margin-bottom: 0;
+        font-family: 'Roboto Slab', serif;
 
     }
     .partnersLine{
