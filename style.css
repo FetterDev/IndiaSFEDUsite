@@ -10,6 +10,11 @@ body{
         background-size: cover;
     }
     
+    .linkStyle{
+        text-decoration: none;
+        color: #ffff;
+    }
+
     .fontHeader{
         display: block;
         color: whitesmoke;
@@ -322,6 +327,10 @@ body{
     .soc{
         height: 5vh;
         width: auto;
+    }
+    .linkStyleSpecial{
+        color: #3872B5;
+        text-decoration: none;
     }
      /* \\\\\\ */
     
